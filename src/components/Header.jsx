@@ -5,6 +5,7 @@ function Header() {
 
     function linkClick(page) {
         setLinkClick(page);
+        
     }
 
     return(
