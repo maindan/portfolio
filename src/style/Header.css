@@ -18,22 +18,34 @@
 .Header li {
     width: 90px;
     height: 90px;
+    background: black;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
-
 .Header li:hover {
-    border-radius: 8px;
-    border: 1px solid white;
     background-color: rgb(39, 102, 185);
-    transform: translateY(5px);
 }
 
 .Header a {
     text-decoration: none;
     color: white;
+
+    width: 90px;
+    height: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.2s;
+}
+
+.Header a:hover {
+    border-radius: 8px;
+    background-color: rgb(39, 102, 185);
+    transform: translateY(20px);
 }

@@ -21,16 +21,15 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-.App{
+.Home {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    gap: 10px;
-
     border: 1px solid white;
+    color: white;
 
-    height: 100%;
+    height: 100vh;
 }
 
