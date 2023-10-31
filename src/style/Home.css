@@ -1,0 +1,19 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 110px 0px 0px 0px;
+
+    height: 100vh;
+}
+
+.container {
+    width: 95%;
+    height: 95%;
+    border-radius: 10px;
+    background-color: #705f85;
+    border: 0.3px solid black;
+    transform: translateY(7px) translateX(-12px);
+    box-shadow: 5px -5px 1px 0px rgba(71, 188, 235, 0.39);
+}

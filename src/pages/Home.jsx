@@ -1,7 +1,11 @@
+import '../style/Home.css'
+
 function Home() {
     return(
         <div className="Home">
-            <h2>Algo aqui</h2>
+            <section className='container'>
+
+            </section>
         </div>
     )
 }

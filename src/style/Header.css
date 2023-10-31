@@ -1,51 +1,53 @@
 .Header {
     width: 100%;
     height: 100px;
-    border: 1px solid blue;
 
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: space-between;
+    padding: 0px 50px;
+    position: fixed;
+}
+
+.Header h1 {
+    font-size: 35px;
 }
 
 .Header ul {
     list-style: none;
     display: flex;
-    gap: 100px;
+    gap: 50px;
 }
 
 .Header li {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     background: black;
 
     display: flex;
     align-items: center;
     justify-content: center;
-
-    transition: all 0.2s;
-}
-.Header li:hover {
-    background-color: rgb(39, 102, 185);
 }
 
 .Header a {
     text-decoration: none;
     color: white;
 
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
 
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.603);
     transition: all 0.2s;
 }
 
 .Header a:hover {
-    border-radius: 8px;
-    background-color: rgb(39, 102, 185);
-    transform: translateY(20px);
+    background-color: #80669d;
+    border: 0.3px solid black;
+    transform: translateY(8px) translateX(-5px);
+    box-shadow: 5px -5px 1px 0px rgba(71, 188, 235, 0.39);
 }

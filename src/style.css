@@ -21,15 +21,4 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-.Home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    border: 1px solid white;
-    color: white;
-
-    height: 100vh;
-}
 
