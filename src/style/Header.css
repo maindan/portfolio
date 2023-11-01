@@ -48,7 +48,7 @@
     transition: all 0.2s;
 }
 
-.Header a:hover {
+.Header a:hover, a.active {
     background-color: #80669d;
     border: 0.3px solid black;
     transform: translateY(8px) translateX(-5px);
