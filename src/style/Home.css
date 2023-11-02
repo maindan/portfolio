@@ -25,6 +25,7 @@
     align-items: left;
     justify-content: center;
     gap: 20px;
+    text-align: justify;
 
     padding: 10% 10%;
     background: #80669d;
