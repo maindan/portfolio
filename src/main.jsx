@@ -14,9 +14,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/portfolio/portfolio/" element={<Home />}/>
-        <Route path="/portfolio/portfolio/Sobre" element={<About />}/>
-        <Route path="/portfolio/portfolio/Contato" element={<Contact />}/>
+        <Route path="/portfolio/" element={<Home />}/>
+        <Route path="/portfolio/" element={<About />}/>
+        <Route path="/portfolio/" element={<Contact />}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
