@@ -32,14 +32,28 @@
 }
 
 .container article {
-    border-top-left-radius: 18px;
-    border-bottom-left-radius: 18px;
+    border-radius: 18px;
+    border: 1px solid transparent;
+    transition: all 1s ease;
+}
+
+.container article:hover {
+    box-shadow: 0px 0px 6px 0px rgba(255,255,255,0.7);
+    border: 1px solid rgba(88, 181, 224, 0.664);
+    transition: all 1s ease;
 }
 
 .container aside {
     align-items: center;
-    border-top-right-radius: 18px;
-    border-bottom-right-radius: 18px;
+    border-radius: 18px;
+    border: 1px solid transparent;
+    transition: all 1s ease;
+}
+
+.container aside:hover {
+    box-shadow: 0px 0px 6px 0px rgba(255,255,255,0.7);
+    border: 1px solid rgba(88, 181, 224, 0.664);
+    transition: all 1s ease;
 }
 
 .container article h2 {

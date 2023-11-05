@@ -43,18 +43,16 @@
     align-items: center;
     justify-content: center;
     
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.603);
-    transition: all 0.2s;
+    border-radius: 15px;
+    box-shadow: 0px 0px 6px 0px rgba(255,255,255,0.7);
+    border: 1px solid transparent;
+    transition: all 1s ease;
 }
 
 .Header a:hover, a.active {
-    background-color: #80669d;
-    border: 0.3px solid black;
-    transform: translateY(8px) translateX(-5px);
-    box-shadow: 5px -5px 1px 0px rgba(71, 188, 235, 0.39);
+    border: 1px solid rgba(88, 181, 224, 0.664);
+    transition: all 1s ease;
 }
-
 
 @media screen and (max-width: 768px) {
     .Header {
