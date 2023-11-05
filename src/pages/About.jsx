@@ -1,7 +1,9 @@
+import '../style/About.css'
+
 function About() {
     return(
         <div className="About">
-            <h2>Algo aqui</h2>
+            <h2>algo aqui</h2>
         </div>
     )
 }

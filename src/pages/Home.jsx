@@ -19,7 +19,9 @@ function Home() {
                 <aside data-aos="fade-zoom-in" data-aos-duration='2000'>
                     <h2>Projetos</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem dolores repellat magni eveniet dicta, excepturi eos maxime ad totam, placeat ex voluptas, quas eius ducimus illo vero est molestias atque!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, rem doloremque nam similique eligendi iure magni assumenda quidem adipisci amet deleniti iste. Accusamus id vero magni voluptatum? Dignissimos, nostrum sit?</p>
+                    <div id="projetos">
+                        
+                    </div>
                 </aside>
             </section>
         </div>
