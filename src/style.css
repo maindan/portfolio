@@ -7,12 +7,13 @@
 }
 
 html {
-    width: 100%;
+    width: 100vw;
     height: max-content;
     overflow-x: hidden;
 }
 
 body {
+    width: 100%;
     background-color: black;
     color: white;
 
