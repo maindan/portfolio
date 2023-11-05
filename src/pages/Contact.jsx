@@ -8,7 +8,7 @@ function Contact() {
             </div>
             <div className="form">
                 <h2>//Entre em contato via e-mail!</h2>
-                <form action="">
+                <form action="https://api.staticforms.xyz/submit" method="post">
                     <input type="hidden" name="accessKey" value="9b4bc2f0-eebd-4987-adca-724361252914" />
                     <input type="text" name="name" placeholder="Nome" />
                     <input type="email" name="email" placeholder="E-mail" />
